@@ -1,0 +1,18 @@
+.red-box {
+  background-color: rgba(139, 0, 0, 0.8);
+  border-radius: 5px;
+  color: whitesmoke;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  position: relative;
+  text-align: center;
+  width: 500px;
+}
+
+.red-box:first-of-type {
+  right: 5rem;
+}
+
+.red-box:last-of-type {
+  left: 5rem;
+}

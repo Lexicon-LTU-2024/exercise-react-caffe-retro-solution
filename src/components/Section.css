@@ -1,0 +1,36 @@
+.section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: center;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 1rem solid darkred;
+  height: 100vh;
+}
+
+.section.hot {
+  background-image: url("/src/assets/hot.jpg");
+}
+
+.section.juicy {
+  background-image: url("/src/assets/juicy.jpg");
+}
+
+.section.cosy {
+  background-image: url("/src/assets/cosy.jpg");
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
+.section .header {
+  color: darkred;
+  font-family: "Spirax", sans-serif;
+  font-size: 6rem;
+  text-transform: capitalize;
+}

@@ -1,0 +1,14 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-block: 0.5rem;
+  z-index: 1;
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
